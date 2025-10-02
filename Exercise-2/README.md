@@ -122,3 +122,16 @@ javac Main.java
 
 # Run
 java Main
+
+##  Class Diagram  
+
+Below is the class diagram representing the design patterns and relationships:  
+
+![Satellite Command Control System - Class Diagram](class_diagram.png)
+
+---
+
+##  Output Screenshots  
+
+###  Rotate Command  
+![Rotate Command Output](rotate.png)
