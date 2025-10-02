@@ -1,10 +1,10 @@
-# 🚀 Satellite Command Control System  
+#  Satellite Command Control System  
 
 A **Java-based satellite control system** demonstrating the implementation of **design patterns** for managing satellite operations including rotation, solar panel management, data collection, undo functionality, and activity logging.  
 
 ---
 
-## 📌 Use Case Overview  
+##  Use Case Overview  
 
 The **Satellite Command Control System** simulates a **ground control interface** for managing orbital satellite operations.  
 
@@ -18,7 +18,7 @@ The **Satellite Command Control System** simulates a **ground control interface*
 
 ---
 
-## 📖 Use Case Scenarios  
+##  Use Case Scenarios  
 
 - **Mission Preparation** → Activate solar panels and orient satellite toward target area  
 - **Data Gathering** → Collect data while panels are active  
@@ -27,9 +27,9 @@ The **Satellite Command Control System** simulates a **ground control interface*
 
 ---
 
-## 🎯 Design Patterns Used  
+##  Design Patterns Used  
 
-### 1️⃣ Singleton Pattern  
+### 1️. Singleton Pattern  
 - **Implementation**: `Satellite` class  
 - **Purpose**: Ensures only one satellite instance exists  
 - **Benefits**:  
@@ -39,7 +39,7 @@ The **Satellite Command Control System** simulates a **ground control interface*
 
 ---
 
-### 2️⃣ Command Pattern  
+### 2️. Command Pattern  
 - **Implementation**: `Command` interface + concrete commands  
 - **Purpose**: Encapsulates operations as objects  
 - **Benefits**:  
@@ -55,7 +55,7 @@ The **Satellite Command Control System** simulates a **ground control interface*
 
 ---
 
-### 3️⃣ Observer Pattern  
+### 3️. Observer Pattern  
 - **Implementation**: `SatelliteObserver` interface + `FileLogger`  
 - **Purpose**: Notifies observers of state changes  
 - **Benefits**:  
@@ -65,7 +65,7 @@ The **Satellite Command Control System** simulates a **ground control interface*
 
 ---
 
-## 📂 Classes Overview  
+##  Classes Overview  
 
 ### 🔹 Command (Interface)  
 - Defines `execute()` and `unexecute()` methods for all command objects  
@@ -114,7 +114,7 @@ The **Satellite Command Control System** simulates a **ground control interface*
 
 ---
 
-## ⚙️ How to Run  
+##  How to Run  
 
 ```bash
 # Compile
